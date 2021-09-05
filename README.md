@@ -1,9 +1,24 @@
 ## TYPESCRIPT
 
+### About
+Welcome to my typescript repo, here you can find several things about typescript.
+
+
 ### Dictionary
+
+Source links : `https://indepth.dev/posts/1164/configuring-typescript-compiler`
 
 Create New File (ex: txconfig.json) :
 `$ echo {} > tsconfig.json && tsc`
+
+define which version of JS the compiler should transpile into :
+```javascript
+{
+  "compilerOptions": {
+    "target": "es6"
+  }
+}
+```
 
 Compile ts file :
 `tsc`

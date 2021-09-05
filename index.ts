@@ -1,3 +1,4 @@
+// Typescript Class
 class Car {
     model: String;
     doors: Number;
