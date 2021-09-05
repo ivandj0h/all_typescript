@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
-        "outDir": "dist"
+        "outDir": "dist",
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "mapRoot": "dist"
     }
 }
